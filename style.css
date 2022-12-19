@@ -1,0 +1,254 @@
+header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #18184a;
+  z-index: 100;
+  position: relative;
+}
+.logo {
+  width: 70px;
+}
+.right_side {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.search {
+  position: relative;
+}
+input {
+  width: 350px;
+  padding: 5px 15px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+}
+.right_side button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 40px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.container {
+  width: 100%;
+  height: 600px;
+  margin: 0px auto 0px auto;
+  overflow: hidden;
+  position: relative;
+}
+.slides {
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
+.slide {
+  min-width: 100%;
+  height: 500px;
+  position: relative;
+}
+.slide img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  background-position: center;
+}
+
+.cards_container {
+  display: flex;
+  width: 100%;
+  margin: 40px 0px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card_box {
+  width: 326px;
+}
+.card_img {
+  width: 100%;
+  height: 215px;
+  position: relative;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.overlay {
+  position: absolute;
+  background-color: #0000009e;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.card_img img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.team_logo {
+  position: absolute;
+  z-index: 10;
+  width: 126px;
+  height: 99px;
+  border-radius: 50%;
+  top: 145px;
+  right: 11px;
+  opacity: 0.9;
+}
+.team_logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.team_name {
+  font-size: 24px;
+}
+.mi_color {
+  background: linear-gradient(180deg, #006cb7 0%, #003b7a 100%);
+}
+.gt_color {
+  background: linear-gradient(180deg, #1c1c1c 0%, #0b4973 100%);
+}
+.csk_color {
+  background: linear-gradient(180deg, #fcca06 0%, #f25c19 100%);
+}
+.rcb_color {
+  background: linear-gradient(180deg, #6a6a6a 0%, #1c1c1c 100%);
+}
+.lcg_color {
+  background: linear-gradient(180deg, #006cb7 0%, #003b7a 100%);
+}
+.rr_color {
+  background: linear-gradient(180deg, #ea1a85 0%, #001d48 100%);
+}
+.dc_color {
+  background: linear-gradient(180deg, #0078bc 0%, #17479e 100%);
+}
+.sr_color {
+  background: linear-gradient(180deg, #f26522 0%, #ed1a37 100%);
+}
+.kkr_color {
+  background: linear-gradient(180deg, #3b215d 0%, #552792 100%);
+}
+.pk_color {
+  background: linear-gradient(180deg, #d71920 0%, #84171b 100%);
+}
+.card_description {
+  position: relative;
+  line-height: 2rem;
+  color: white;
+  padding: 25px 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  position: relative;
+}
+.search_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: none;
+  background: wheat;
+  padding: 100px 0px;
+  z-index: 100;
+}
+.close {
+  width: 80px;
+  position: fixed;
+  height: 80px;
+  font-size: 32px;
+  right: 02%;
+  top: 10%;
+  cursor: pointer;
+}
+
+.team_container_search {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0px;
+  gap: 15px;
+}
+.team_player_search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 333px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #0078bc 0%, #17479e 100%);
+  padding-bottom: 30px;
+}
+
+.player_img {
+  width: 200px;
+  height: 200px;
+}
+.player_name {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+}
+.player_description {
+  background: linear-gradient(
+    90.15deg,
+    #ef4123 -4.45%,
+    #ef7923 52.36%,
+    #ef4123 118.57%
+  );
+  width: 100%;
+  padding: 05px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.role {
+  font-size: 20px;
+  color: white;
+}
+
+.mi_color {
+  background: linear-gradient(180deg, #006cb7 0%, #003b7a 100%);
+}
+.gt_color {
+  background: linear-gradient(180deg, #1c1c1c 0%, #0b4973 100%);
+}
+.csk_color {
+  background: linear-gradient(180deg, #fcca06 0%, #f25c19 100%);
+}
+.rcb_color {
+  background: linear-gradient(180deg, #6a6a6a 0%, #1c1c1c 100%);
+}
+.lcg_color {
+  background: linear-gradient(180deg, #006cb7 0%, #003b7a 100%);
+}
+.rr_color {
+  background: linear-gradient(180deg, #ea1a85 0%, #001d48 100%);
+}
+.dc_color {
+  background: linear-gradient(180deg, #0078bc 0%, #17479e 100%);
+}
+.sr_color {
+  background: linear-gradient(180deg, #f26522 0%, #ed1a37 100%);
+}
+.kkr_color {
+  background: linear-gradient(180deg, #3b215d 0%, #552792 100%);
+}
+.pk_color {
+  background: linear-gradient(180deg, #d71920 0%, #84171b 100%);
+}

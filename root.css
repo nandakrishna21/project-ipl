@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.d-flex {
+  display: flex;
+}
+.space_between {
+  justify-content: space-between;
+}
+.align_item {
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+  color: #18184a;
+  font-weight: 700;
+}
+.right_side input {
+  outline: none;
+}
+.root_container {
+  width: 100%;
+  padding: 10px 100px;
+  background-color: rgb(166, 222, 230);
+}
+.card_main {
+  width: 100%;
+  padding: 10px 100px;
+  background: linear-gradient(to right, #fcca06 0%, #ff7636 100%);
+}
+.subtitle {
+  font-size: 14px;
+  font-weight: 400;
+}
+.small_title {
+  font-size: 16px;
+  font-weight: 500;
+}
+.description {
+  font-size: 10px;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+footer {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #18184a;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  font-style: italic;
+  font-weight: 300;
+}

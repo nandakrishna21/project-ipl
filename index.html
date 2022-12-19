@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indian Premier League</title>
+  <link rel="stylesheet" href="./css/root.css">
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="root_container d-flex space_between align_item">
+      <a href="./index.html" class="logo">
+        <img src="./assests/logo.png" alt="IPL_Logo" />
+      </a>
+      <div class="right_side">
+        <div class="search">
+          <input class="searchInput" type="search" placeholder="Search For Team Name" />
+        </div>
+        <a href="./addPlayer.html" class="add">
+          <button type="button">Add Player <i class="fa-solid fa-plus"></i></button>
+        </a>
+        <a href="./addTeams.html" class="add">
+          <button type="button">Add Team <i class="fa-solid fa-plus"></i></button>
+        </a>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="slides">
+      <div class="slide 0">
+        <img src="./assests/Inauguration.webp" alt="">
+      </div>
+      <div class="slide 1">
+        <img src="./assests/ipl-Opening.jpg" alt="">
+      </div>
+      <div class="slide 2">
+        <img src="./assests/ipl.png" alt="">
+      </div>
+      <div class="slide 3">
+        <img src="./assests/cup.jpeg" alt="">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card_main">
+    <h2 class="title">
+      IPL TEAMS
+    </h2>
+    <div class="cards_container">
+      <a href="./team.html" class="card_box" id="CSK">
+        <div class="card_img">
+          <div class="overlay"></div>
+          <div class="team_logo"><img src="./assests/csk.png" alt=""></div>
+          <img src="./assests/csk vault.jpeg" alt="">
+        </div>
+        <div class="card_description csk_color">
+          <h3 class="team_name">Chennai Super Kings</h3>
+
+          <p class="stadium_name"><strong>Homeground :</strong> M.A.Chidambram Stadium</p>
+          <div class="team_description"><strong>Captain :</strong> M.S.Dhoni</div>
+          <p class="team_description"><strong>Trophy Won :</strong> 4</p>
+          <p class="team_description"><strong>Winning Year :</strong> 2010, 2011, 2018, 2021</p>
+        </div>
+      </a>
+      <a href="./team.html" class="card_box" id="MI">
+        <div class="card_img">
+          <div class="overlay"></div>
+          <div class="team_logo"><img src="./assests/mi.png" alt=""></div>
+          <img src="./assests/mi pic.webp" alt="">
+        </div>
+        <div class="card_description mi_color">
+          <h3 class="team_name">Mumbai Indians</h3>
+
+          <p class="stadium_name"><strong>Homeground :</strong> Wankhade Stadium</p>
+          <div class="team_description"><strong>Captain :</strong> Rohit Sharma</div>
+          <p class="team_description"><strong>Trophy Won :</strong> 5</p>
+          <p class="team_description"><strong>Winning Year :</strong> 2013, 2015, 2017, 2019, 2020</p>
+        </div>
+      </a>
+      
+      <a href="./team.html" class="card_box" id="GT">
+        <div class="card_img">
+          <div class="overlay"></div>
+          <div class="team_logo"><img src="./assests/gt.png" alt=""></div>
+          <img src="./assests/gt1.jpg" alt="">
+        </div>
+        <div class="card_description gt_color">
+          <h3 class="team_name">Gujarat Titans</h3>
+
+          <p class="stadium_name"><strong>Homeground : </strong> Narendra Modi Stadium</p>
+          <div class="team_description"><strong>Captain :</strong> Hardik Pandya</div>
+          <p class="team_description"><strong>Trophy Won :</strong> 1</p>
+          <p class="team_description"><strong>Winning Year :</strong> 2022</p>
+        </div>
+      </a>
+      
+      <a href="./team.html" class="card_box" id="RR">
+        <div class="card_img">
+          <div class="overlay"></div>
+          <div class="team_logo"><img src="./assests/rr.png" alt=""></div>
+          <img src="./assests/rr1.jpg" alt="">
+        </div>
+        <div class="card_description rr_color">
+          <h3 class="team_name">Rajasthan Royals</h3>
+          <p class="stadium_name"><strong>Homeground :</strong> Sawai Mansingh Stadium</p>
+          <div class="team_description"><strong>Captain :</strong> Jos Butler</div>
+          <p class="team_description"><strong>Trophy Won :</strong> 1</p>
+          <p class="team_description"><strong>Winning Year :</strong> 2008</p>
+        </div>
+      </a>
+      <a href="./team.html" class="card_box" id="KKR">
+        <div class="card_img">
+          <div class="overlay"></div>
+          <div class="team_logo"><img src="./assests/kkr.png" alt=""></div>
+          <img src="./assests/kkr.webp" alt="">
+        </div>
+        <div class="card_description kkr_color">
+          <h3 class="team_name">Kolkata Knight Riders</h3>
+
+          <p class="stadium_name"><strong>Homeground :</strong> Eden Gardens</p>
+          <div class="team_description"><strong>Captain :</strong> Eon Morgan</div>
+          <p class="team_description"><strong>Trophy Won :</strong> 2</p>
+          <p class="team_description"><strong>Winning Year :</strong> 2012 , 2014</p>
+        </div>
+      </a>
+     
+      <a href="./team.html" class="card_box" id="DC">
+        <div class="card_img">
+          <div class="overlay"></div>
+          <div class="team_logo"><img src="./assests/dc.png" alt=""></div>
+          <img src="./assests/dc1.jpg" alt="">
+        </div>
+        <div class="card_description dc_color">
+          <h3 class="team_name">Delhi Capitals</h3>
+
+          <p class="stadium_name"><strong>Homeground :</strong> Arun Jaitley Stadium</p>
+          <div class="team_description"><strong>Captain :</strong> Rishab Pant</div>
+          <p class="team_description"><strong>Trophy Won :</strong> 0</p>
+          <p class="team_description"><strong>Winning Year :</strong> No Trophies</p>
+        </div>
+      </a>
+      <a href="./team.html" class="card_box" id="RCB">
+        <div class="card_img">
+          <div class="overlay"></div>
+          <div class="team_logo"><img src="./assests/rcb.png" alt=""></div>
+          <img src="./assests/header2.jpg" alt="">
+        </div>
+        <div class="card_description rcb_color">
+          <h3 class="team_name">Royal Challenger Bangalore</h3>
+
+          <p class="stadium_name"><strong>Homeground :</strong> M. Chinnaswamy Stadium</p>
+          <div class="team_description"><strong>Captain :</strong> Faf Du Plesis</div>
+          <p class="team_description"><strong>Trophy Won :</strong> 0</p>
+          <p class="team_description"><strong>Winning Year :</strong>No Trophies</p>
+        </div>
+      </a>
+      <a href="./team.html" class="card_box" id="LSG">
+        <div class="card_img">
+          <div class="overlay"></div>
+          <div class="team_logo"><img src="./assests/lcg.png" alt=""></div>
+          <img src="./assests/lcg1.webp" alt="">
+        </div>
+        <div class="card_description lcg_color">
+          <h3 class="team_name">Lucknow Super Giants</h3>
+          <p class="stadium_name"><strong>Homeground :</strong> BRSABV Cricket Stadium</p>
+          <div class="team_description"><strong>Captain :</strong> K.L.Rahul</div>
+          <p class="team_description"><strong>Trophy Won :</strong> 0</p>
+          <p class="team_description"><strong>Winning Year :</strong> No Trophies</p>
+        </div>
+      </a>
+      <a href="./team.html" class="card_box" id="PBKS">
+        <div class="card_img">
+          <div class="overlay"></div>
+          <div class="team_logo"><img src="./assests/pk.png" alt=""></div>
+          <img src="./assests/pk1.webp" alt="">
+        </div>
+        <div class="card_description pk_color">
+          <h3 class="team_name">Punjab Kings</h3>
+
+          <p class="stadium_name"><strong>Homeground :</strong> Bindra Stadium</p>
+          <div class="team_description"><strong>Captain :</strong> Sikhar Dhawan</div>
+          <p class="team_description"><strong>Trophy Won :</strong> 0</p>
+          <p class="team_description"><strong>Winning Year :</strong> No Trophies</p>
+        </div>
+      </a>
+      <a href="./team.html" class="card_box" id="SRH">
+        <div class="card_img">
+          <div class="overlay"></div>
+          <div class="team_logo"><img src="./assests/sr.png" alt=""></div>
+          <img src="./assests/srh1.webp" alt="">
+        </div>
+        <div class="card_description sr_color">
+          <h3 class="team_name">Sunrisers Hyderabad</h3>
+          <p class="stadium_name"><strong>Homeground :</strong> Rajiv Gandhi Intl. Stadium</p>
+          <div class="team_description"><strong>Captain :</strong> Kane Williamson</div>
+          <p class="team_description"><strong>Trophy Won :</strong> 1</p>
+          <p class="team_description"><strong>Winning Year :</strong> 2016</p>
+        </div>
+      </a>
+      
+      
+    </div>
+  </div>
+
+
+  <footer>
+    Nanda Krishna &copy; All Rights Reserved 2022
+  </footer>
+
+  <!-- JS LINKS -->
+  <script src="./js/app.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
